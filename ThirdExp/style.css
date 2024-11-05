@@ -1,0 +1,10 @@
+.todo{
+    display: flex;
+    align-items: center;
+  
+}
+button{
+    height: fit-content;
+    margin-left: 20px;
+
+}

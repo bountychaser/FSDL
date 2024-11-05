@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 style = "display: flex; justify-content: center;">User SignUp</h1><br>
+
+        <div style = "display: flex;justify-content: center;">
+
+            <form action="/user/signup" method="POST"> 
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text"  name="FirstName" required>
+                </div><br>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text"  name="LastName" required>
+                </div><br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input style= "margin-left:30px;" type="email" name="Email" required>
+                </div><br>
+                <div>
+                    <label for="password">Password:</label>
+                    <input style = "margin-left: 5px;" type="password" name="Password" required>
+                </div><br>
+                <button style = "margin-left: 90px;"type="submit">Sign Up</button>
+            </form>
+
+        </div>
+
+    </body>
+</html>
